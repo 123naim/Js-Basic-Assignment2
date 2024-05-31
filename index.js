@@ -1,5 +1,4 @@
 // 1. Write a function to convert Celsius to Fahrenheit. The function should take a single argument, which is the temperature in Celsius
-
 function celsiusToFahrenheit(celsius) {
     const fahrenheit = celsius * (9 / 5) + 32;
     return fahrenheit;
@@ -7,6 +6,8 @@ function celsiusToFahrenheit(celsius) {
 
 // console.log(celsiusToFahrenheit(0)); // 32
 // console.log(celsiusToFahrenheit(25)); // 77
+
+
 
 
 // 2. Write a function to check if a number is even. The function should take a single argument, which is the number to check.
@@ -94,7 +95,6 @@ function factorialize(num) {
     else {
         return num * factorialize(num - 1)
     }
-
 }
 
 // console.log(factorialize(5)); // 120
@@ -134,6 +134,7 @@ function stringLength(str) {
 
 
 
+
 // 12. Write a function to merge two arrays. The function should take two arguments, which are the arrays to merge.
 function mergeArrays(arr1, arr2) {
     return arr1.concat(arr2)
@@ -165,6 +166,8 @@ function getFirstCharacter(str) {
 
 
 
+
+
 // 15.  Write a function to find the sum of all elements in an array. The function should take a single argument, which is the array.
 function sumArray(arr) {
     let sum = 0;
@@ -174,6 +177,6 @@ function sumArray(arr) {
     return sum;
 }
 
-console.log(sumArray([1, 2, 3, 4])); // 10
-console.log(sumArray([-1, -2, -3, -4])); // -10
-console.log(sumArray([1.5, 2.5, 3.5])); // 7.5
+// console.log(sumArray([1, 2, 3, 4])); // 10
+// console.log(sumArray([-1, -2, -3, -4])); // -10
+// console.log(sumArray([1.5, 2.5, 3.5])); // 7.5
